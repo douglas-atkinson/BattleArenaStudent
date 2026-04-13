@@ -9,7 +9,8 @@ DummyMonster::DummyMonster(const std::string& name, int hitPoints, int strength,
     : Monster(name, hitPoints, strength, accuracy, agility, defense, position, portrait) {}
 
 AttackResult DummyMonster::attack(Combatant& target) {
-
+    AttackResult result;
+    return result;
 }
 
 bool DummyMonster::move(const WorldState& world) {

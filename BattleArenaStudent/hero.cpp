@@ -18,7 +18,8 @@ MovementResult Hero::moveByPlayerCommand(char command, const WorldState& world) 
 }
 
 AttackResult Hero::attack(Combatant& target) {
-    
+    AttackResult result;
+    return result;
 }
 
 std::string Hero::speak() const {
